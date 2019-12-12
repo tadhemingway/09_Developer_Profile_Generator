@@ -1,0 +1,100 @@
+.container {
+    text-align: center;
+}
+
+.top-row {
+    height: 310px;
+}
+
+.mid-row {
+    height: 430px;
+    margin-top: 90px;
+}
+
+.footer {
+    height: 160px;
+    width: 100%;
+}
+
+.top-row, .bottom-row {
+    background: rgb(166, 183, 255);
+}
+
+.main-box {
+    background: rgb(223, 159, 159);
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pic {
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    border: 3px solid yellow;
+}
+
+a {
+    margin: 15px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.name {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bio {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.rep-num {
+    background: rgb(223, 159, 159);
+    width: 290px;
+    /* margin: auto; */
+    border-radius: 5px;
+}   
+
+.followers {
+    background: rgb(223, 159, 159);
+    width: 290px;
+    /* margin: auto; */
+    border-radius: 5px;
+    
+}
+
+.github-stars {
+    background: rgb(223, 159, 159);
+    width: 290px;
+    /* margin: auto; */
+    border-radius: 5px;
+}
+
+.follow {
+    background: rgb(223, 159, 159);
+    width: 290px;
+    /* margin: auto; */
+    border-radius: 5px;
+}
+
+h4, .repos, .stars, .followers-num, .following {
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-2 {
+    margin-top: 60px;
+}
